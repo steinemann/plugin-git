@@ -70,13 +70,13 @@ function __git.init
   __git.create_abbr gfa        git fetch --all --prune
   __git.create_abbr gfm        "git fetch origin (__git.default_branch) --prune; and git merge FETCH_HEAD"
   __git.create_abbr gfo        git fetch origin
-  __git.create_abbr gl         git pull
-  __git.create_abbr ggl        git pull origin \(__git.current_branch\)
-  __git.create_abbr gll        git pull origin
-  __git.create_abbr glr        git pull --rebase
-  __git.create_abbr glg        git log --stat
-  __git.create_abbr glgg       git log --graph
-  __git.create_abbr glgga      git log --graph --decorate --all
+  #__git.create_abbr gl         git pull
+  #__git.create_abbr ggl        git pull origin \(__git.current_branch\)
+  #__git.create_abbr gll        git pull origin
+  #__git.create_abbr glr        git pull --rebase
+  __git.create_abbr gl        git log --stat
+  __git.create_abbr glg       git log --graph
+  __git.create_abbr glga      git log --graph --decorate --all
   __git.create_abbr glo        git log --oneline --decorate --color
   __git.create_abbr glog       git log --oneline --decorate --color --graph
   __git.create_abbr gloga      git log --oneline --decorate --color --graph --all
