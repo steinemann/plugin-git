@@ -70,6 +70,7 @@ function __git.init
   __git.create_abbr gfa        git fetch --all --prune
   __git.create_abbr gfm        "git fetch origin (__git.default_branch) --prune; and git merge FETCH_HEAD"
   __git.create_abbr gfo        git fetch origin
+  __git.create_abbr gfr        "git fetch; git rebase"
   #__git.create_abbr gl         git pull
   #__git.create_abbr ggl        git pull origin \(__git.current_branch\)
   #__git.create_abbr gll        git pull origin
@@ -160,25 +161,25 @@ function __git.init
   __git.create_abbr gcom       git checkout \(__git.default_branch\)
 
   # git flow abbreviations
-  __git.create_abbr gfb        git flow bugfix
-  __git.create_abbr gff        git flow feature
-  __git.create_abbr gfr        git flow release
-  __git.create_abbr gfh        git flow hotfix
-  __git.create_abbr gfs        git flow support
+  #__git.create_abbr gfb        git flow bugfix
+  #__git.create_abbr gff        git flow feature
+  #__git.create_abbr gfr        git flow release
+  #__git.create_abbr gfh        git flow hotfix
+  #__git.create_abbr gfs        git flow support
 
-  __git.create_abbr gfbs       git flow bugfix start
-  __git.create_abbr gffs       git flow feature start
-  __git.create_abbr gfrs       git flow release start
-  __git.create_abbr gfhs       git flow hotfix start
-  __git.create_abbr gfss       git flow support start
+  #__git.create_abbr gfbs       git flow bugfix start
+  #__git.create_abbr gffs       git flow feature start
+  #__git.create_abbr gfrs       git flow release start
+  #__git.create_abbr gfhs       git flow hotfix start
+  #__git.create_abbr gfss       git flow support start
 
-  __git.create_abbr gfbt       git flow bugfix track
-  __git.create_abbr gfft       git flow feature track
-  __git.create_abbr gfrt       git flow release track
-  __git.create_abbr gfht       git flow hotfix track
-  __git.create_abbr gfst       git flow support track
+  #__git.create_abbr gfbt       git flow bugfix track
+  #__git.create_abbr gfft       git flow feature track
+  #__git.create_abbr gfrt       git flow release track
+  #__git.create_abbr gfht       git flow hotfix track
+  #__git.create_abbr gfst       git flow support track
 
-  __git.create_abbr gfp        git flow publish
+  #__git.create_abbr gfp        git flow publish
 
   # git worktree abbreviations
   __git.create_abbr gwt        git worktree
