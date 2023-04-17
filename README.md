@@ -3,6 +3,7 @@
 #### git
 > A git aliases plugin for [Oh My Fish][omf-link] and [Fisher][fisher-link],
 > based loosely on the [Oh My Zsh Git Plugin][omz-git-plugin].
+> Based on `https://github.com/jhillyerd/plugin-git`
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.5.0-007EC7.svg?style=flat-square)](https://fishshell.com)
@@ -16,12 +17,12 @@
 oh-my-fish:
 
 ```fish
-$ omf install https://github.com/jhillyerd/plugin-git
+$ omf install https://github.com/steinemann/plugin-git
 ```
 
 fisher:
 ```fish
-$ fisher install jhillyerd/plugin-git
+$ fisher install steinemann/plugin-git
 ```
 
 Nix's home-manager:
@@ -331,7 +332,7 @@ gunwip           # restore work in progress
 
 | Abbreviation | Command                                                     |
 | ------------ | --------------------------------------------------------    |
-| g            | `git`                                                       |
+| g            | `git` or `git status` (iff called without parameters)       |
 | gap          | `git apply`                                                 |
 | gbl          | `git blame -b -w`                                           |
 | gcf          | `git config --list`                                         |

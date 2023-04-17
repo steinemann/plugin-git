@@ -16,7 +16,7 @@ function __git.init
   end
 
   # git abbreviations
-  __git.create_abbr g          git
+  # __git.create_abbr g          git # Removed because of `g` function
   __git.create_abbr ga         git add
   __git.create_abbr gaa        git add --all
   __git.create_abbr gau        git add --update
